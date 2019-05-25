@@ -1,6 +1,6 @@
 {
   "name": "@windztrumpet/logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easy logging your projects",
   "main": "index.js",
   "repository": "https://github.com/WindzTrumpet/logger.git",
