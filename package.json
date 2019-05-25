@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/WindzTrumpet/logger.git",
   "author": "WindzTrumpet",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "moment-timezone": "^0.5.25"
+  }
 }
