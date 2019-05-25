@@ -1,0 +1,9 @@
+{
+  "name": "logger",
+  "version": "0.0.1",
+  "description": "Easy logging your projects",
+  "main": "index.js",
+  "repository": "https://github.com/WindzTrumpet/logger.git",
+  "author": "WindzTrumpet",
+  "license": "MIT"
+}
