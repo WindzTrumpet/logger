@@ -1,5 +1,5 @@
 {
-  "name": "logger",
+  "name": "@windztrumpet/logger",
   "version": "0.0.1",
   "description": "Easy logging your projects",
   "main": "index.js",
