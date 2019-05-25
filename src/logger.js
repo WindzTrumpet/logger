@@ -7,7 +7,11 @@ function createLog(type, message) {
 	var now = new Date();
 	var dateString = moment(now).format('YYYY-MM-DD');
 	var pathLog = logDir + '/'+ dateString
-	var logDateTime = moment(now).format('YYYY-MM-DD HH:mm:ss');
+    var logDateTime = moment(now).format('YYYY-MM-DD HH:mm:ss');
+    
+    if (!fs.existsSync(logDir)) {
+		fs.mkdirSync(logDir);
+	}
 	
 	if (!fs.existsSync(pathLog)) {
 		fs.mkdirSync(pathLog);
